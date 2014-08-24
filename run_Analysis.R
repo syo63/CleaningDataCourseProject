@@ -1,8 +1,6 @@
 # Course Project
 #syo63
 
-library(reshape2)
-
 #Read in Data Files for Train. Assumes WD is set to folder UCI HAR Dataset
 x = read.table("train/X_train.txt", header=FALSE)
 y = read.table("train/y_train.txt", header=FALSE)
