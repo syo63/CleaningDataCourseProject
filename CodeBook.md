@@ -4,9 +4,9 @@ Original Data Sets Downloaded From: https://d396qusza40orc.cloudfront.net/getdat
 Website with Explanation of Data Set: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Steps to clean data:
-1. read in 'features.txt' for column names
-2. read in 'train\X_train.txt and append column names
-3. read in 'train\subject_train.txt' to append volunteer ID to data set
+<li> 1. read in 'features.txt' for column names </li>
+<li> 2. read in 'train\X_train.txt and append column names </li>
+li 3. read in 'train\subject_train.txt' to append volunteer ID to data set
 4. read in 'train\y_test.txt' to append activity type to data set
 5. repeat 2-5 for test data
 6. merge the data sets together
